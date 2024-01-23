@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from elevenlabs import generate
 from langchain import PromptTemplate
 from langchain.chains import LLMChain
-from langchain.llms import OpenAI
+from langchain_openai import OpenAI
 
 load_dotenv()
 
