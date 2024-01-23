@@ -12,7 +12,7 @@ load_dotenv()
 openai_api_key = os.getenv("OPENAI_API_KEY")
 eleven_api_key = os.getenv("ELEVEN_API_KEY")
 
-llm = OpenAI(temperature=0.9)
+llm = OpenAI()
 
 def generate_story(text):
     prompt = PromptTemplate(
